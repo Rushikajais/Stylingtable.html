@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 12px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .total-price {
+            background-color: pink;
+        }
+
+        .A{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price per Unit</th>
+            <th>Description</th>
+            <th colspan="2">Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Product 1</td>
+            <td>2</td>
+            <td>10</td>
+            <td>This is product 1.</td>
+            <td class="total-price">$20</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>3</td>
+            <td>20</td>
+            <td>This is product 2.</td>
+            <td class="total-price">$60</td>
+        </tr>
+        <tr class="A">
+            <td>Sum</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="A">$80</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
